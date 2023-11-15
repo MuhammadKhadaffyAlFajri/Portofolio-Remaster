@@ -1,0 +1,77 @@
+body {
+    background: url(Powder.jpg ) no-repeat fixed center;
+    background-size: 100%;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    color: white;
+    padding: 10px 20px;
+    height: 80px;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+  }
+  
+  .nav-menu {
+    display: flex;
+  }
+  
+  .nav-menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .nav-menu a:hover {
+    text-decoration: underline overline;
+    background-color: white;
+    color: pink;
+  }
+  main{
+    padding: 100px 80px;
+  }
+
+  h1{
+    font-size: 140px;
+  }
+
+  h2 {  
+    font-size: 60px
+
+  }
+  span {
+    color: pink;
+  }
+  
+  footer {
+    background-color: pink;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: 100px;
+  }
+  
+  .flex-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flex-footer a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .flex-footer a:hover {
+    text-decoration: underline overline;
+    background-color: white;
+    color: pink;
+  }
